@@ -1,8 +1,9 @@
-<h1>WIKI</h1>
-<ul><% @articles.each do |article| %>
-  <li><%= link_to article.title, article_path(article) %>
-      <%= link_to '✏', edit_article_path(article.id) %>
-      <%= link_to '🗑', article_path(article), method: :delete %>
-  </li>
-<% end %></ul>
+<div class="container">
+  <ul><% @articles.each do |article| %>
+    <li><%= link_to article.title, article_path(article) %>
+        <p><%= article.content %></p>
+
+    </li>
+  <% end %></ul>
+</div>
 <%= link_to 'Write a new article', new_article_path %>

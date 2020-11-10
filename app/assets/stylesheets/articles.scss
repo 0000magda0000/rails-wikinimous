@@ -1,3 +1,23 @@
-// Place all the styles related to the Articles controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: https://sass-lang.com/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+
+.container a, .container li {
+  color: #337ab7;
+  text-decoration: none;
+  font-family: 'Roboto Slab', sans-serif;
+  list-style-type: none;
+}
+
+.container p {
+  font-family: 'Roboto', sans-serif;
+  color: black;
+}
+
+.container.header {
+  background-color: #F8F8F8;
+  margin: 0vw;
+}
+/*font-family: 'Roboto', sans-serif;
+*/
